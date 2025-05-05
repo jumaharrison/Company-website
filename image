@@ -1,7 +1,11 @@
-<!-- Hero Banner Image -->
-<img src="https://images.unsplash.com/photo-2FPjlAyMQTA" alt="Academic Collaboration" style="width:100%; height:auto;" />
+<!-- Hero Banner -->
+<img src="https://images.unsplash.com/photo-1584697964154-cbba1f51fdd3?auto=format&fit=crop&w=1350&q=80" 
+     alt="Hero Banner" style="width:100%; height:auto;" />
 
-<!-- Services Images -->
-<img src="https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg" alt="Thesis and Dissertation Help" style="width:300px; height:180px; object-fit:cover;" />
+<!-- Thesis & Dissertation Help -->
+<img src="https://images.pexels.com/photos/4144221/pexels-photo-4144221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
+     alt="Thesis Help" style="width:300px; height:180px; object-fit:cover;" />
 
-<img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg" alt="Software Development Team" style="width:300px; height:180px; object-fit:cover;" />
+<!-- Software Development -->
+<img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
+     alt="Software Dev" style="width:300px; height:180px; object-fit:cover;" />
