@@ -7,11 +7,15 @@
   <title>EduNexus Solutions</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 
 <body>
   <header>
-    <h1>EduNexus Solutions</h1>
+    <div class="logo">
+      <img src="images/logo.png" alt="EduNexus Logo" />
+      <h1>EduNexus Solutions</h1>
+    </div>
     <nav>
       <a href="#">Home</a>
       <a href="#">About Us</a>
@@ -21,55 +25,62 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Empowering Research. Driving Innovation.</h2>
-    <button>Get Free Consultation</button>
-  </section>
+  <main>
+    <section class="hero">
+      <img src="images/hero-banner.jpg" alt="Students working together" />
+      <h2>Empowering Research. Driving Innovation.</h2>
+      <button onclick="scrollToForm()">Get Free Consultation</button>
+    </section>
 
-  <section class="services">
-    <div class="card">
-      <h3>Academic Services</h3>
-      <p>Thesis guidance, data analysis, editing, plagiarism checks, and research coaching for students and scholars.</p>
-    </div>
-    <div class="card">
-      <h3>Software Solutions</h3>
-      <p>Custom-built educational platforms, LMS systems, and research management tools tailored for institutions.</p>
-    </div>
-  </section>
+    <section class="services">
+      <div class="card">
+        <img src="images/academic.jpg" alt="Academic Services" />
+        <h3>Academic Services</h3>
+        <p>Thesis guidance, data analysis, editing, plagiarism checks, and research coaching for students and scholars.</p>
+      </div>
+      <div class="card">
+        <img src="images/software.jpg" alt="Software Solutions" />
+        <h3>Software Solutions</h3>
+        <p>Custom-built educational platforms, LMS systems, and research management tools tailored for institutions.</p>
+      </div>
+    </section>
 
-  <section class="testimonials">
-    <h2>What Our Clients Say</h2>
-    <div class="testimonial">“EduNexus helped me complete my dissertation with professional guidance and support.” – Sarah, MA Student</div>
-    <div class="testimonial">“Their LMS tool transformed how we manage learning at our college.” – Mr. Karanja, Principal</div>
-    <div class="testimonial">“Reliable, ethical, and tech-savvy – best support for postgraduate research.” – James, PhD Candidate</div>
-  </section>
+    <section class="testimonials">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial active">“EduNexus helped me complete my dissertation with professional guidance and support.” – Sarah, MA Student</div>
+        <div class="testimonial">“Their LMS tool transformed how we manage learning at our college.” – Mr. Karanja, Principal</div>
+        <div class="testimonial">“Reliable, ethical, and tech-savvy – best support for postgraduate research.” – James, PhD Candidate</div>
+      </div>
+    </section>
 
-  <section class="consultation-form" id="contact">
-    <h2>Request a Free Consultation</h2>
-    <form action="#" method="post">
-      <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name" required>
+    <section class="consultation-form" id="contact">
+      <h2>Request a Free Consultation</h2>
+      <form id="consultForm" action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
 
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
 
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
 
-      <label for="service">Service Interested In:</label>
-      <select id="service" name="service">
-        <option value="Academic Assistance">Academic Assistance</option>
-        <option value="Software Development">Software Development</option>
-        <option value="LMS Solutions">LMS Solutions</option>
-        <option value="Research Coaching">Research Coaching</option>
-      </select>
+        <label for="service">Service Interested In:</label>
+        <select id="service" name="service">
+          <option value="Academic Assistance">Academic Assistance</option>
+          <option value="Software Development">Software Development</option>
+          <option value="LMS Solutions">LMS Solutions</option>
+          <option value="Research Coaching">Research Coaching</option>
+        </select>
 
-      <label for="message">Additional Information:</label>
-      <textarea id="message" name="message"></textarea>
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message"></textarea>
 
-      <button type="submit">Submit Request</button>
-    </form>
-  </section>
+        <button type="submit">Submit Request</button>
+      </form>
+    </section>
+  </main>
 
   <footer>
     <div>
